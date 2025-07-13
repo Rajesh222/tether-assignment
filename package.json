@@ -1,0 +1,17 @@
+{
+  "name": "tether-challenge",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "scheduler_rpc.js",
+  "scripts": {
+    "start": "node src/scheduler_rpc.js",
+    "client": "node src/rpcClient.js"
+  },
+  "dependencies": {
+    "@hyperswarm/rpc": "^2.0.0",
+    "hyperbee": "^2.0.0",
+    "hypercore": "^11.0.0",
+    "hyperdht": "^3.0.0",
+    "node-fetch": "^3.0.0"
+  }
+}
